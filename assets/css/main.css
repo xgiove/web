@@ -67,7 +67,7 @@ section {
 .gradiente {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 12s ease infinite;
 }
 
 @keyframes gradient {
@@ -2605,8 +2605,8 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  /*background: url("../img/footer-bg.jpg") top center no-repeat;*/
-  /*background-size: cover;*/
+  /*background: url("../img/footer-bg.jpg") top center no-repeat;*/ /*Tolto per il gradiente*/
+  /*background-size: cover;*/ /*Tolto per il gradiente*/
   font-size: 14px;
   padding: 80px 0 60px 0;
   position: relative;
@@ -2614,7 +2614,7 @@ section {
 
 .footer:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   inset: 0;
 }
