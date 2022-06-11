@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #ffc732;
+  color: #F3807D; /*Cambiato, era: #ffc732*/
   text-decoration: none;
 }
 
@@ -188,7 +188,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ffc732;
+  background: #F3807D;  /*Cambiato, era: #ffc732 */
   color: #fff;
 }
 
