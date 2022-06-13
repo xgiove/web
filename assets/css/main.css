@@ -67,7 +67,7 @@ section {
 .gradiente {
   background: linear-gradient(-80deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 12s ease infinite;
+  animation: gradient 9s ease infinite;
 }
 
 @keyframes gradient {
