@@ -1,5 +1,5 @@
 /**
-* Template Name: UpConstruction - v1.0.1
+* Template Name: UpConstruction - v1.0.0
 * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -239,7 +239,7 @@ section {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #fff;
+  border: 6px solid rgb(255, 255, 255);
   border-color: var(--color-primary) transparent var(--color-primary) transparent;
   border-radius: 50%;
   width: 60px;
@@ -450,8 +450,8 @@ section {
 
 @media (min-width: 1280px) {
 
-  .mobile-nav-show,
-  .mobile-nav-hide {
+  .navbar .mobile-nav-show,
+  .navbar .mobile-nav-hide {
     display: none;
   }
 }
