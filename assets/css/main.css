@@ -290,7 +290,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 50px;
+  max-height: 40px;
   margin-right: 6px;
 }
 
@@ -1235,7 +1235,7 @@ section {
 
 @media (min-width: 991px) {
   .about .our-story {
-    padding-right: 35%;
+    padding-right: 15%; /*era 35% */
   }
 }
 
