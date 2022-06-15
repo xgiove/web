@@ -104,10 +104,61 @@
             <h2>Giugno</h2>
           </div>
 
+
           <div class="col-xl-4 col-md-6"> <!--Begin post list item-->
             <div class="post-item position-relative h-100">
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt="">
+                <img src="assets/img/eventi/repubblicarock.jpg" class="img-fluid" alt="">
+                <span class="post-date" id="andora"></span> <!--DATA ID-->
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">La Repubblica del Rock</h3>
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Andora (SV)</span>
+                  </div>
+                </div>
+                <!--
+                <p>
+                  Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+                </p>
+                -->
+                <hr>
+                <a href="https://www.larepubblicadelrock.it/" target="_blank" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End post list item -->
+
+
+          <div class="col-xl-4 col-md-6"> <!--Begin post list item-->
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/eventi/ubrecche.jpg" class="img-fluid" alt="">
+                <span class="post-date" id="ubrecche"></span> <!--DATA ID-->
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Ubrecche</h3>
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Alassio (SV)</span>
+                  </div>
+                </div>
+                <!--
+                <p>
+                  Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+                </p>
+                -->
+                <hr>
+                <a href="https://www.facebook.com/UbreccheAlassio/" target="_blank" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End post list item -->
+
+
+          <div class="col-xl-4 col-md-6"> <!--Begin post list item-->
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/eventi/season.png" class="img-fluid" alt="">
                 <span class="post-date" id="season"></span> <!--DATA ID-->
               </div>
               <div class="post-content d-flex flex-column">
@@ -664,6 +715,8 @@
 
     // Qui di seguito vanno le date degli eventi coi i loro "id":
     // Giugno
+    document.getElementById("andora").innerHTML = dataEvento('2022-06-02 23:59:59');
+    document.getElementById("ubrecche").innerHTML = dataEvento('2022-06-03 23:59:59');
     document.getElementById("season").innerHTML = dataEvento('2022-06-12 23:59:59');
     document.getElementById("portofranko").innerHTML = dataEvento('2022-06-23 23:59:59');
     document.getElementById("magliano").innerHTML = dataEvento('2022-06-25 23:59:59');
