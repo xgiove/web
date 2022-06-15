@@ -102,6 +102,19 @@
     <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
 
+        <script>
+          var g1 = new Date();
+          var g2 = new Date('2022-06-14');
+          document.write("<br \>g1 ", g1.getTime());
+          document.write("<br \>g2 ", g2.getTime(),);
+          document.write("<br \>g1 ", g1,);
+          document.write("<br \>g2 ", g2, "<br>");
+          if (g1.getTime() < g2.getTime())
+            document.write("g1 is lesser than g2");
+          else
+            document.write("g1 is greater than g2");
+        </script>
+
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
           <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
