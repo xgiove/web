@@ -66,7 +66,7 @@
               <li><a href="about.html">Chi è xGiove</a></li>
 
               <li><a href="nicolo.html">Nicolò</a></li>
-              <li><a href="giacomo.html">Giacomo</a></li>
+              <li><a href="giacomo.html" >Giacomo</a></li>
               <li><a href="andrea.html">Andrea</a></li>
               <li><a href="ludovico.html">Ludovico</a></li>
               <li><a href="federico.html">Federico</a></li>
@@ -95,7 +95,7 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Blog Section ======= -->
-    <section id="giugno" class="blog">
+    <section id="blog" class="blog">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 posts-list">
@@ -105,7 +105,7 @@
           </div>
 
 
-          <div class="col-xl-4 col-md-6" id="p_andora"> <!--Begin post list item-->
+          <div class="col-xl-4 col-md-6"> <!--Begin post list item-->
             <div class="post-item position-relative h-100">
               <div class="post-img position-relative overflow-hidden">
                 <img src="assets/img/eventi/repubblicarock.jpg" class="img-fluid" alt="">
@@ -713,23 +713,9 @@
         return "Concluso <del>" + g2.toLocaleDateString("it-IT", options) + "</del>";
     } 
 
-    function nascondiInData(data) {
-      var g1 = new Date();
-      var g2 = new Date(data);
-      if (g1.getTime() < g2.getTime())
-        return false;
-      else
-        return true;
-    }
-
     // Qui di seguito vanno le date degli eventi coi i loro "id":
-    
     // Giugno
-    document.getElementById("giugno").hidden = nascondiInData('2022-06-30 23:59:59');; // Sezione intera
-
     document.getElementById("andora").innerHTML = dataEvento('2022-06-02 23:59:59');
-    document.getElementById("p_andora").hidden = false; //nascondiInData('2022-06-19 23:59:59');
-
     document.getElementById("ubrecche").innerHTML = dataEvento('2022-06-03 23:59:59');
     document.getElementById("season").innerHTML = dataEvento('2022-06-12 23:59:59');
     document.getElementById("portofranko").innerHTML = dataEvento('2022-06-23 23:59:59');
@@ -752,7 +738,7 @@
     document.getElementById("esa").innerHTML = dataEvento('2022-09-03 23:59:59');
     
     
-  </script>
+    </script>
 
 </body>
 
