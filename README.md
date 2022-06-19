@@ -7,7 +7,7 @@ xGiove's website!
 - [ ] Definire i contenuti della homepage
 - [ ] News da mettere? (richiedono manutenzione + frequente)
 - [ ] Cambiare foto "La band" e forse toglierci anche il titolo
-- [ ] "About" --> "Chi è xGiove"
+- [x] "About" --> "Chi è xGiove"
 - [ ] Quali link utili mettere a piè di pagina
 - [ ] Numeri di telefono veri sulla pagina contatti
 - [ ] Definire i video da mettere nella pagine Anteprime
@@ -15,7 +15,7 @@ xGiove's website!
 - [x] Piè di pagina animato
 - [x] Cursore con logo specchiato
 - [ ] Marketplace su IG (non è legale farlo su sito web senza P.Iva)
-- [ ] Repertorio
+- [x] Repertorio da togliere
 - [ ] Imagini sfondo intestazione di pagina nuove
 - [ ] Link TikTok
-- [ ] Immagini/Locandine eventi
+- [ ] Immagini/Locandine eventi (almeno quelle di default)
