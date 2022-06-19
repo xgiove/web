@@ -5,8 +5,8 @@ xGiove's website!
 
 - [ ] Alleggerire foto carosello su homepage
 - [ ] Definire i contenuti della homepage
-- [ ] News da mettere? (richiedono manutenzione + frequente)
-- [ ] Cambiare foto "La band" e forse toglierci anche il titolo
+- [ ] News da mettere? (richiede manutenzione + frequente)
+- [ ] Cambiare foto "La band" e forse togliere anche il titolo
 - [x] "About" --> "Chi è xGiove"
 - [ ] Quali link utili mettere a piè di pagina
 - [ ] Numeri di telefono veri sulla pagina contatti

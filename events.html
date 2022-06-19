@@ -598,7 +598,6 @@
             </div>
           </div><!-- End post list item -->
 
-
         </div><!-- End blog posts list -->
 
         
@@ -623,6 +622,11 @@
           <p>Visita i nostri <a href="contact.html">canali social</a> per rimanere aggiornato.</p>
 
         </div>
+        <br>
+        <div class="float-end badge text-bg-danger text-wrap ">
+          Aggiornato al <span id="lastupdate"></span>
+        </div>
+        
       </div>
     </section>
 
@@ -771,6 +775,13 @@
     document.getElementById("esa").innerHTML = dataEvento('2022-09-03 23:59:59');
     
     
+  </script>
+
+  <script>
+    var data = new Date(document.lastModified)
+    var options = {year: 'numeric', month: 'long', day: 'numeric',  hour: '2-digit', minute: '2-digit'};
+
+    document.getElementById("lastupdate").innerHTML = data.toLocaleDateString("it-IT", options);
   </script>
 
 </body>
