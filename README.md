@@ -19,3 +19,4 @@ xGiove's website!
 - [ ] Imagini sfondo intestazione di pagina nuove
 - [ ] Link TikTok
 - [ ] Immagini/Locandine eventi (almeno quelle di default)
+- [ ] Pagina 404 personalizzata
