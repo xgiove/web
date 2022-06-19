@@ -260,7 +260,7 @@
     </section><!-- End Blog Section -->
 
  
-    <section id="blog" class="blog section-bg"> <!--Sezione di luglio-->
+    <section id="luglio" class="blog section-bg"> <!--Sezione di luglio-->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 posts-list">
@@ -426,7 +426,7 @@
     </section><!-- End Blog Section -->
 
  
-    <section id="blog" class="blog"> <!--Sezione di luglio-->
+    <section id="agosto" class="blog"> <!--Sezione di luglio-->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 posts-list">
@@ -565,7 +565,7 @@
     </section><!-- End Blog Section -->
 
  
-    <section id="blog" class="blog section-bg"> <!--Sezione di luglio-->
+    <section id="settembre" class="blog section-bg"> <!--Sezione di luglio-->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 posts-list">
@@ -612,6 +612,19 @@
 
       </div>
     </section><!-- End Blog Section -->
+
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up" data-aos-delay="100"> 
+        <div class="content blog-details">
+
+          <h3>
+            Per ora non ci sono altri eventi. <i class="bi bi-emoji-smile"></i>
+          </h3>
+          <p>Visita i nostri <a href="contact.html">canali social</a> per rimanere aggiornato.</p>
+
+        </div>
+      </div>
+    </section>
 
   </main><!-- End #main -->
 
@@ -725,7 +738,7 @@
     // Qui di seguito vanno le date degli eventi coi i loro "id":
     
     // Giugno
-    document.getElementById("giugno").hidden = nascondiInData('2022-06-30 23:59:59');; // Sezione intera
+    document.getElementById("giugno").hidden = nascondiInData('2022-06-30 23:59:59'); // Sezione intera
 
     document.getElementById("andora").innerHTML = dataEvento('2022-06-02 23:59:59');
     document.getElementById("p_andora").hidden = false; //nascondiInData('2022-06-19 23:59:59');
@@ -736,6 +749,8 @@
     document.getElementById("magliano").innerHTML = dataEvento('2022-06-25 23:59:59');
     document.getElementById("fanpanino").innerHTML = dataEvento('2022-06-27 23:59:59');
     // Luglio
+    document.getElementById("luglio").hidden = nascondiInData('2022-07-31 23:59:59'); // Sezione intera
+
     document.getElementById("birraformante").innerHTML = dataEvento('2022-07-01 23:59:59');
     document.getElementById("cvt").innerHTML = dataEvento('2022-07-02 23:59:59');
     document.getElementById("squaremusic").innerHTML = dataEvento('2022-07-07 23:59:59');
@@ -743,12 +758,16 @@
     document.getElementById("fermento").innerHTML = dataEvento('2022-07-13 23:59:59'); 
     document.getElementById("resole").innerHTML = dataEvento('2022-07-15 23:59:59');   
     //Agosto
+    document.getElementById("agosto").hidden = nascondiInData('2022-08-31 23:59:59'); // Sezione intera
+
     document.getElementById("pse").innerHTML = dataEvento('2022-08-06 23:59:59');
     document.getElementById("bambu").innerHTML = dataEvento('2022-08-10 23:59:59');
     document.getElementById("bambu2").innerHTML = dataEvento('2022-08-11 23:59:59');
     document.getElementById("saxa").innerHTML = dataEvento('2022-08-14 23:59:59');
     document.getElementById("nomad").innerHTML = dataEvento('2022-08-17 23:59:59');
     //Settembre
+    document.getElementById("settembre").hidden = nascondiInData('2022-09-30 23:59:59'); // Sezione intera
+
     document.getElementById("esa").innerHTML = dataEvento('2022-09-03 23:59:59');
     
     
