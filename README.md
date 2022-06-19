@@ -10,4 +10,12 @@ xGiove's website!
 - [ ] "About" --> "Chi è xGiove"
 - [ ] Quali link utili mettere a piè di pagina
 - [ ] Numeri di telefono veri sulla pagina contatti
-- [ ] ...
+- [ ] Definire i video da mettere nella pagine Anteprime
+- [x] "Concluso" su date automatico 
+- [x] Piè di pagina animato
+- [x] Cursore con logo specchiato
+- [ ] Marketplace su IG (non è legale farlo su sito web senza P.Iva)
+- [ ] Repertorio
+- [ ] Imagini sfondo intestazione di pagina nuove
+- [ ] Link TikTok
+- [ ] Immagini/Locandine eventi
