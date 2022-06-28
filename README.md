@@ -3,7 +3,7 @@ xGiove's website!
 
 ## ToDo list
 
-- [ ] Alleggerire foto carosello su homepage
+- [x] Alleggerire foto carosello su homepage
 - [ ] Definire i contenuti della homepage
 - [ ] News da mettere? (richiede manutenzione + frequente)
 - [ ] Cambiare foto "La band" e forse togliere anche il titolo
