@@ -64,6 +64,12 @@ section {
   overflow: hidden;
 }
 
+.gradientetop {
+  background: linear-gradient(-30deg, #300505, #242121, #3d240f);
+  background-size: 300% 300%;
+  animation: gradient 9s ease infinite;
+}
+
 .gradiente {
   background: linear-gradient(-80deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -1290,7 +1296,8 @@ section {
 
 .about .about-img {
   min-height: 600px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
