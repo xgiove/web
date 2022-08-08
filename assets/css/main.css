@@ -65,7 +65,7 @@ section {
 }
 
 .gradientetop {
-  background: linear-gradient(-30deg, #300505, #242121, #3d240f);
+  background: linear-gradient(-30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 300% 300%;
   animation: gradient 9s ease infinite;
 }
