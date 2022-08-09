@@ -83,7 +83,7 @@ section {
 }
 
 .gradientetop {
-  background: linear-gradient(-30deg, #772320, #151946, #583711, #215311);
+  background: linear-gradient(-30deg, #B2342A, #469FAA, #CB8741, #8E4163);
   background-size: 300% 300%;
   animation: gradient 9s ease infinite;
 }
