@@ -56,6 +56,8 @@ h6 {
   font-family: var(--font-primary);
 }
 
+
+
 /*--------------------------------------------------------------
 # Youtube video container
 --------------------------------------------------------------*/
@@ -1012,13 +1014,16 @@ section {
 
 .projects .portfolio-content .portfolio-info .preview-link,
 .projects .portfolio-content .portfolio-info .details-link {
+  font-size: 55px;
+  margin: 0;
   position: absolute;
-  left: calc(50% - 40px);
-  font-size: 26px;
-  top: calc(50% - 14px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
   transition: 0.3s;
   line-height: 1.2;
+  
 }
 
 .projects .portfolio-content .portfolio-info .preview-link:hover,
@@ -1032,11 +1037,11 @@ section {
   line-height: 0;
 }
 
-.projects .portfolio-content:hover .portfolio-info {
-  opacity: 1;
+.projects .portfolio-content .portfolio-info {
+  opacity: 0.9;
 }
 
-.projects .portfolio-content:hover img {
+.projects .portfolio-content img {
   transform: scale(1.1);
 }
 
@@ -1323,6 +1328,21 @@ section {
     top: 0;
     right: 0;
   }
+}
+
+.btn-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -2097,7 +2117,7 @@ section {
   color: #fff;
   position: relative;
 
-  margin-top: 250px;
+  margin-top: 150px;
  
   bottom: 0px;
   font-size: 60px;
@@ -2108,7 +2128,7 @@ section {
   color: #fff;
   position: relative;
 
-  margin-top: 80px;
+  margin-top: 200px;
  
   bottom: 0px;
   font-size: 60px;
@@ -2193,6 +2213,52 @@ section {
 .heroo .carousel-control-prev:hover,
 .heroo .carousel-control-next:hover {
   opacity: 0.9;
+}
+
+
+
+.heroo .btn-scroll {
+  transition: 0.4s;
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.social-linkss a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.social-linkss a:hover {
+  background: var(--color-primary);
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
