@@ -1445,7 +1445,7 @@ section {
 /* Style the button and place it in the middle of the video/image */
 .video .btn {
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
