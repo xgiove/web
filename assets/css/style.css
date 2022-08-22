@@ -1434,7 +1434,6 @@ section {
  /* video needed to position the button. Adjust the width as needed */
  .video {
   position: relative;
-  width: 100%;
 }
 
 /* Make the image responsive */
