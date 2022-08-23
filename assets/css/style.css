@@ -132,6 +132,32 @@ h6 {
   }
 }
 
+
+/* Portrait and Landscape ---- iPhone 5, 5S, 5C and 5SE*/
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #hero .hero-logo img {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      max-width: 90%;
+    }
+}
+    
+/* Landscape ---- iPhone 5, 5S, 5C and 5SE*/
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #hero .hero-logo img {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-width: 50%;
+    }
+}
+
 /*@media screen and ( min-width: 700px ) and ( max-height: 300px )
 {
   #hero .hero-logo img {
@@ -649,14 +675,141 @@ section {
   line-height: 24px;
 }
 
+/* news Section
+--------------------------------*/
+#news {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/about-img.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  #news {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/about-img.jpg") center center;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }
+}
+
+
+#news .news-item {
+  margin-bottom: 20px;
+}
+
+#news .news-icon {
+  float: left;
+  background: #EC3933;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #EC3933;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+#news .news-icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+#news .news-item:hover .news-icon {
+  background: #fff;
+}
+
+#news .news-item:hover .news-icon i {
+  color: #EC3933;
+}
+
+#news .news-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#news .news-title a {
+  color: #111;
+}
+
+#news .news-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
+
+
+#news .news-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#news .news-text {
+  color: #fff;
+}
+
+#news .news-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#news .news-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#news .news-btn:hover {
+  background: #EC3933;
+  border: 2px solid #EC3933;
+}
+
+#news h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
 /* Subscribe Section
 --------------------------------*/
+/* CSS for other than iOS devices */
+/*@supports not (-webkit-touch-callout: none) {
+   
+
+}*/
+
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-075-min.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
 }
+
+  /* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+  #subscribe {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-075-min.jpg) center center;
+    background-size: cover;
+    padding: 80px 0;
+    min-height: 400px;
+  }
+}
+
+
+
+
 
 #subscribe .subscribe-title {
   color: #fff;
@@ -711,6 +864,17 @@ section {
 
 }
 
+/* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+  #subscribe2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-088-min.jpg) center center;
+    background-size: cover;
+    padding: 80px 0;
+    min-height: 400px;
+
+  }
+}
+
 #subscribe2 .subscribe-title {
   color: #fff;
   font-size: 28px;
@@ -758,7 +922,19 @@ section {
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
+  
 
+}
+
+/* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+  #subscribe3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-062-min.jpg) center center;
+    background-size: cover;
+    padding: 80px 0;
+    min-height: 400px;
+
+  }
 }
 
 #subscribe3 .subscribe-title {
