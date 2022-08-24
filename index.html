@@ -56,14 +56,25 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
 </head>
 
 <body class="pointer">
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
+
+
+
     <div class="container hero-container">
 
+       
+      <!-- ======= AVVISI ======= -->
+      <div class="alert alert-danger alert-dismissible fade show container" role="alert" hidden>
+        <strong>Avviso importante:</strong> Corpo dell'avviso.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      
       <div class="social-pos">
         <div class="social-linkss d-inline-flex">
           <a href="https://www.instagram.com/xgiove_/" target="_blank"
@@ -89,12 +100,14 @@
           var x = document.getElementById("demo");
           x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
           </script>-->
-    </div>
+      </div>
+    
+
 
       <div data-aos="fade-in">
 
         <div class="hero-logo">
-          <img class="" src="assets/img/LOGO_STORIES.png" alt="Logo XGIOVE bianco">
+          <img class="" src="assets/img/LOGO_STORIES.png" alt="Logo XGIOVE bianco" >
         </div>
 
         <!--<h2>We create <span class="typed" data-typed-items="beautiful graphics, functional websites, working mobile apps"></span></h2>
@@ -133,7 +146,7 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <main id="main" onload="openAlert()">
 
     <!-- ======= About Section ======= -->
     <section id="about">
