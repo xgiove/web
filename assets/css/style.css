@@ -103,7 +103,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/liguria/xgiove_liguria_2022-068-min.jpg) top center;
+  background: url(../img/fotonuove/insieme-n2.jpg) top center;
   background-size: cover;
 }
 
@@ -681,7 +681,7 @@ section {
 /* news Section
 --------------------------------*/
 #news {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/liguria/xgiove_liguria_2022-068-min.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/fotonuove/nick-andrea.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -689,7 +689,7 @@ section {
 @supports (-webkit-touch-callout: none) {
   /* CSS specific to iOS devices */ 
   #news {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/liguria/xgiove_liguria_2022-068-min.jpg") center center;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/fotonuove/nick-andrea.jpg") center center;
     background-size: cover;
     padding: 80px 0 60px 0;
   }
@@ -794,7 +794,7 @@ section {
 }*/
 
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-075-min.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/ludo-nick.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -803,7 +803,7 @@ section {
   /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
   #subscribe {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-075-min.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/ludo-nick.jpg) center center;
     background-size: cover;
     padding: 80px 0;
     min-height: 400px;
@@ -860,7 +860,7 @@ section {
 /* Subscribe2 Section
 --------------------------------*/
 #subscribe2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-088-min.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/andy-jk.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -870,7 +870,7 @@ section {
 /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
   #subscribe2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-088-min.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/andy-jk.jpg) center center;
     background-size: cover;
     padding: 80px 0;
     min-height: 400px;
@@ -921,7 +921,7 @@ section {
 /* Subscribe3 Section
 --------------------------------*/
 #subscribe3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-062-min.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/kiko-e-jk.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -932,7 +932,7 @@ section {
 /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
   #subscribe3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/liguria/xgiove_liguria_2022-062-min.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/kiko-e-jk.jpg) center center;
     background-size: cover;
     padding: 80px 0;
     min-height: 400px;
