@@ -173,7 +173,7 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.2);
   display: table-cell;
   padding: 100;
   /*text-align: center;*/
