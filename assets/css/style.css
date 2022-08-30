@@ -394,7 +394,7 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 }
 
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 20px;
 }
 
 .navbar .dropdown ul a {
