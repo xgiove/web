@@ -139,8 +139,8 @@ h6 {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     #hero .hero-logo img {
-      padding-top: 100px;
-      padding-bottom: 100px;
+      padding-top: 160px;
+      padding-bottom: 160px;
       max-width: 90%;
     }
 }
@@ -264,14 +264,16 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 }
 
 #hero .social-pos {
-  text-align: left;
+  text-align: right;
   padding-left: 80px;
+  padding-right: 80px;
 }
 
 @media (max-width: 700px) {
   #hero .social-pos {
     text-align: center;
     padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

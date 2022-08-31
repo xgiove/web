@@ -83,6 +83,8 @@
 
     <div class="container hero-container">
 
+
+
       <!-- ======= AVVISI ======= -->
       <div class="alert alert-danger alert-dismissible fade show container" role="alert" hidden>
         <strong>Avviso importante:</strong> Corpo dell'avviso.
@@ -91,6 +93,18 @@
       
       <div class="social-pos">
         
+        <a tabindex="0" class="btn btn-outline-secondary" role="button" data-bs-toggle="popover" data-bs-placement="bottom" 
+        data-bs-trigger="focus" 
+        data-bs-html="true"
+        data-bs-content="<a href='marche.html'><img src='assets/flags/marche.webp' width='20' alt='Marche flag'></a>
+                         <br><br>
+                         <a href='eng.html'><img src='assets/flags/gb.webp' width='20' alt='UK flag'></a>
+                         <br><br>
+                         <a href='de.html'><img src='assets/flags/de.webp' width='20' alt='German flag'></a>
+                         <br><br>
+                         <a href='es.html'><img src='assets/flags/es.webp' width='20' alt='Spanish flag'></a>">
+        <img src="assets/flags/it.webp" width="20" alt="Italian flag">
+        </a>
 
       </div>
     
@@ -128,7 +142,7 @@
               <li><a href="marche.html"><img src="assets/flags/marche.webp" width="20" alt="Marche flag"></a></li>
               <li><a href="eng.html"><img src="assets/flags/gb.webp" width="20" alt="UK flag"></a></li>
               <li><a href="de.html"><img src="assets/flags/de.webp" width="20" alt="German flag"></a></li>
-              <li><a href="cn.html"><img src="assets/flags/cn.webp" width="20" alt="Chinese flag"></a></li>
+              <li><a href="es.html"><img src="assets/flags/es.webp" width="20" alt="Spanish flag"></a></li>
             </ul>
           </li>
         </ul>
@@ -473,8 +487,15 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
 
 </body>
 

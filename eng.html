@@ -73,7 +73,6 @@
   </PageMap>
  -->
 
-
 </head>
 
 <body class="pointer">
@@ -91,6 +90,18 @@
       
       <div class="social-pos">
         
+        <a tabindex="0" class="btn btn-outline-secondary" role="button" data-bs-toggle="popover" data-bs-placement="bottom" 
+        data-bs-trigger="focus" 
+        data-bs-html="true"
+        data-bs-content="<a href='index.html'><img src='assets/flags/it.webp' width='20' alt='Italian flag'></a>
+                         <br><br>
+                         <a href='marche.html'><img src='assets/flags/marche.webp' width='20' alt='Marche flag'></a>
+                         <br><br>
+                         <a href='de.html'><img src='assets/flags/de.webp' width='20' alt='German flag'></a>
+                         <br><br>
+                         <a href='es.html'><img src='assets/flags/es.webp' width='20' alt='Spanish flag'></a>">
+        <img src="assets/flags/gb.webp" width="20" alt="UK flag">
+        </a>
 
       </div>
     
@@ -120,15 +131,15 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">La nostra storia</a></li>
-          <li><a class="nav-link scrollto" href="#team">Membri</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contatti</a></li>
+          <li><a class="nav-link scrollto" href="#about">About us</a></li>
+          <li><a class="nav-link scrollto" href="#team">Members</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li class="dropdown"><a href="#"><img src="assets/flags/gb.webp" width="20" alt="UK flag"></a>
             <ul>
               <li><a href="index.html"><img src="assets/flags/it.webp" width="20" alt="Italian flag"></a></li>
               <li><a href="marche.html"><img src="assets/flags/marche.webp" width="20" alt="Marche flag"></a></li>
               <li><a href="de.html"><img src="assets/flags/de.webp" width="20" alt="German flag"></a></li>
-              <li><a href="cn.html"><img src="assets/flags/cn.webp" width="20" alt="Chinese flag"></a></li>
+              <li><a href="es.html"><img src="assets/flags/es.webp" width="20" alt="Spanish flag"></a></li>
             </ul>
           </li>
         </ul>
@@ -471,9 +482,16 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
 
 </body>
 

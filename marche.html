@@ -91,6 +91,18 @@
       
       <div class="social-pos">
         
+        <a tabindex="0" class="btn btn-outline-secondary" role="button" data-bs-toggle="popover" data-bs-placement="bottom" 
+        data-bs-trigger="focus" 
+        data-bs-html="true"
+        data-bs-content="<a href='index.html'><img src='assets/flags/it.webp' width='20' alt='Italian flag'></a>
+                         <br><br>
+                         <a href='eng.html'><img src='assets/flags/gb.webp' width='20' alt='UK flag'></a>
+                         <br><br>
+                         <a href='de.html'><img src='assets/flags/de.webp' width='20' alt='German flag'></a>
+                         <br><br>
+                         <a href='es.html'><img src='assets/flags/es.webp' width='20' alt='Spanish flag'></a>">
+        <img src="assets/flags/marche.webp" width="20" alt="Marche flag">
+        </a>
 
       </div>
     
@@ -122,13 +134,13 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">La storia nostra</a></li>
           <li><a class="nav-link scrollto" href="#team">Lu gruppu</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Li Contatti</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contatti</a></li>
           <li class="dropdown"><a href="#"><img src="assets/flags/marche.webp" width="20" alt="Marche flag"></a>
             <ul>
               <li><a href="index.html"><img src="assets/flags/it.webp" width="20" alt="Italian flag"></a></li>
               <li><a href="eng.html"><img src="assets/flags/gb.webp" width="20" alt="UK flag"></a></li>
               <li><a href="de.html"><img src="assets/flags/de.webp" width="20" alt="German flag"></a></li>
-              <li><a href="cn.html"><img src="assets/flags/cn.webp" width="20" alt="Chinese flag"></a></li>
+              <li><a href="es.html"><img src="assets/flags/es.webp" width="20" alt="Spanish flag"></a></li>
             </ul>
           </li>
         </ul>
@@ -157,10 +169,10 @@
 
             <p class="about-text">
 
-              La band marchigiana <b>XGIOVE è nata 2018</b> dopo che s'è incontrati Nicolò, Giacomo, Andrea,
-              Ludovico e Federico, che dopo <b>un sacco de concerti e esperienze</b> come <em>Contrabband</em>, decide de
+              La band marchigiana <b>XGIOVE è nata nel 2018</b> dopo che s'è incontrati Nicolò, Giacomo, Andrea,
+              Ludovico e Federico, che dopo <b>un sacco de concerti ed esperienze</b> come <em>Contrabband</em>, decide de
               ncumincià la strada de la scrittura de pezzi originali pe esprime la propria
-              identità dal punto di vista personale, de lu testu e de lu sound.
+              identità da lu punto di vista loro, come anche de lu testu e de lu sound.
             </p>
             <br>
           </div>
@@ -189,7 +201,7 @@
 
           <div class="col-md-12">
             <p class="subscribe-text">Lu <b>sound</b> è na intersezione tra le linee che caratterizza li singoli componenti. Li vertici più
-              evidenti sò lu <em>rock</em> in sfaccettature varie, lu <em>folk</em>, co la fisarmonica a fare da
+              evidenti sò lu <em>rock</em> in sfaccettature varie, lu <em>folk</em>, co la fisarmonica a fà da
               padrona, e la contaminazió de vari elementi provenienti da lu mondo de la produzione musicale de addè.</p>
           </div>
 
@@ -471,9 +483,16 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
 
 </body>
 
