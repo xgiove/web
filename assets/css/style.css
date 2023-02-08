@@ -830,7 +830,7 @@ section {
 }*/
 
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/ludo-nick.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/NATURAL_web.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -839,7 +839,7 @@ section {
   /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
   #subscribe {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/ludo-nick.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/NATURAL_web.jpg) center center;
     background-size: cover;
     padding: 80px 0;
     min-height: 400px;
@@ -896,7 +896,7 @@ section {
 /* Subscribe2 Section
 --------------------------------*/
 #subscribe2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/andy-jk.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/TMF_web.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -906,7 +906,7 @@ section {
 /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
   #subscribe2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/andy-jk.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/TMF_web.jpg) center center;
     background-size: cover;
     padding: 80px 0;
     min-height: 400px;
@@ -957,7 +957,7 @@ section {
 /* Subscribe3 Section
 --------------------------------*/
 #subscribe3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/kiko-e-jk.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/CANTAGIRO_web.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -968,7 +968,7 @@ section {
 /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
   #subscribe3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove/kiko-e-jk.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/CANTAGIRO_web.jpg) center center;
     background-size: cover;
     padding: 80px 0;
     min-height: 400px;
