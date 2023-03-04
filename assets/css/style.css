@@ -1406,7 +1406,11 @@ color: #fff;
 }
 
 #contact a{
-  color: #c31b1b;
+  color: #be3838;
+}
+
+#contact a:hover {
+  color: #F3807D;
 }
 
 #contact .info {
