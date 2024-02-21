@@ -266,6 +266,7 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
   position: relative;
   color: #fff;
   bottom: 0;
+  top: 50px;
 }
 
 @keyframes MoveUpDown {
@@ -675,10 +676,10 @@ section {
 
 #services .service-icon {
   float: left;
-  background: #c31b1b;
+  background: #d47814; /*was #c31b1b */
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #c31b1b;
+  border: 1px solid #d47814; /*was #c31b1b */
   display: inline-flex;
   align-items: center;
   justify-content: center;

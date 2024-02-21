@@ -27,9 +27,9 @@
      inkscape:zoom="8.9875"
      inkscape:cx="40"
      inkscape:cy="40"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
-     inkscape:window-x="-2409"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg12" />
@@ -70,7 +70,7 @@
   </g>
   <g
      id="g10"
-     style="stroke:#ff0000">
+     style="stroke:#d47814;stroke-opacity:1">
     <animate
        attributeName="opacity"
        dur="2s"
@@ -87,7 +87,7 @@
        stroke-width="3"
        stroke-linecap="round"
        id="circle8"
-       style="stroke:#ff0000">
+       style="stroke:#d47814;stroke-opacity:1">
       <animate
          attributeName="r"
          dur="2s"
