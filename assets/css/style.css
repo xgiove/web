@@ -119,14 +119,13 @@ h6 {
   height: 100vh;
   background: url(../img/foto2024/Principale.jpg) center center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+}*/
 
 #hero .hero-logo {
   margin: 20px;
@@ -149,7 +148,7 @@ h6 {
 
 
 /* Portrait and Landscape ---- iPhone 5, 5S, 5C and 5SE*/
-@media screen 
+/*@media screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -158,10 +157,10 @@ h6 {
       padding-bottom: 160px;
       max-width: 90%;
     }
-}
+}*/
     
 /* Landscape ---- iPhone 5, 5S, 5C and 5SE*/
-@media screen 
+/*@media screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -171,7 +170,7 @@ h6 {
       padding-bottom: 10px;
       max-width: 50%;
     }
-}
+}*/
 
 /*@media screen and ( min-width: 700px ) and ( max-height: 300px )
 {
@@ -682,7 +681,7 @@ section {
 
 
 #services {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/foto2024/Premi.jpeg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/foto2024/Premi.jpeg") center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -759,7 +758,7 @@ section {
 /* news Section
 --------------------------------*/
 #news {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/fotonuove/nick-andrea.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/fotonuove/nick-andrea.jpg") center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -938,7 +937,7 @@ section {
 /* Subscribe2 Section
 --------------------------------*/
 #subscribe2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/TMF_web.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/TMF_web.jpg) center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -999,7 +998,7 @@ section {
 /* Subscribe3 Section
 --------------------------------*/
 #subscribe3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/CANTAGIRO_web.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/CANTAGIRO_web.jpg) center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
