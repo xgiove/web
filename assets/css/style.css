@@ -871,7 +871,7 @@ section {
 }*/
 
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/NATURAL_web.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fotonuove2023/NATURAL_web.jpg) center center;
   background-size: cover;
   padding: 80px 0;
   min-height: 400px;
@@ -1388,7 +1388,7 @@ section {
 --------------------------------*/
 #contact {
 
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/fotonuove/kiko-e-jk.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/fotonuove/kiko-e-jk.jpg) center center;
   background-size: cover;
   padding: 80px 0 60px 0;
   
