@@ -2059,3 +2059,372 @@ section {
 .ascolta .php-email-form button[type=submit]:hover {
   background: rgba(254, 185, 0, 0.8);
 }
+
+
+
+/* ascolta Section
+--------------------------------*/
+#ascolta {
+  background: #f7f7f7;
+  padding: 80px 0 40px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  #ascolta {
+    background: #414040
+  }
+}
+
+#ascolta .info {
+  color: #333333;
+}
+
+#ascolta .info i {
+  font-size: 32px;
+  color: #EC3933;
+  float: left;
+  line-height: 0;
+}
+
+#ascolta .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+}
+
+#ascolta .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#ascolta .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+#ascolta .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #d21818;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#ascolta .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#ascolta .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #d21818;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+#ascolta .php-email-form input,
+#ascolta .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#ascolta .php-email-form input::focus,
+#ascolta .php-email-form textarea::focus {
+  background-color: #EC3933;
+}
+
+#ascolta .php-email-form button[type=submit] {
+  background: #EC3933;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#ascolta .php-email-form button[type=submit]:hover {
+  background: #F3807D;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# concerti Section
+--------------------------------------------------------------*/
+.concerti .info-item {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  padding: 20px 0 30px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .concerti .info-item {
+    box-shadow: 0 0 25px rgba(187, 187, 187, 0.5);
+    background: #1c1c1c;
+  }
+}
+
+.concerti .info-item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  line-height: 0;
+  color: var(--color-primary);
+  border-radius: 50%;
+  border: 2px dotted #ffd565;
+}
+
+.concerti .info-item h3 {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .concerti .info-item h3 {
+    color: #fff;
+
+  }
+}
+
+.concerti .info-item p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.concerti .php-email-form {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+}
+
+.concerti .php-email-form .form-group {
+  padding-bottom: 20px;
+}
+
+.concerti .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #df1529;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.concerti .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.concerti .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.concerti .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.concerti .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #059652;
+  border-top-color: #fff;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.concerti .php-email-form input,
+.concerti .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.concerti .php-email-form input:focus,
+.concerti .php-email-form textarea:focus {
+  border-color: var(--color-primary);
+}
+
+.concerti .php-email-form input {
+  height: 44px;
+}
+
+.concerti .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.concerti .php-email-form button[type=submit] {
+  background: var(--color-primary);
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.concerti .php-email-form button[type=submit]:hover {
+  background: rgba(254, 185, 0, 0.8);
+}
+
+
+
+/* concerti Section
+--------------------------------*/
+#concerti {
+  background: #f7f7f7;
+  padding: 80px 0 40px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  #concerti {
+    background: #414040
+  }
+}
+
+#concerti .info {
+  color: #333333;
+}
+
+#concerti .info i {
+  font-size: 32px;
+  color: #EC3933;
+  float: left;
+  line-height: 0;
+}
+
+#concerti .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+}
+
+#concerti .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#concerti .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+#concerti .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #d21818;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#concerti .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#concerti .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #d21818;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+#concerti .php-email-form input,
+#concerti .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#concerti .php-email-form input::focus,
+#concerti .php-email-form textarea::focus {
+  background-color: #EC3933;
+}
+
+#concerti .php-email-form button[type=submit] {
+  background: #EC3933;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#concerti .php-email-form button[type=submit]:hover {
+  background: #F3807D;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
