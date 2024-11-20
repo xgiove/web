@@ -9,14 +9,15 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  /* modificare per il backgroud */
+  background: #fff4e4;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "EB Garamond", "Open Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #000;
+    background: #211200;
     color: #fff;
   }
 }
@@ -30,7 +31,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #F3807D;
+  color: #f2c39f;
   outline: none;
   text-decoration: none;
 }
@@ -46,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond", "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -101,7 +102,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #F3807D;
+  background: #f2c39f;
   color: #fff;
 }
 
@@ -117,7 +118,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/foto2024/Principale.jpg) center center;
+  background: url(../img/foto2024/Principale.jpg?v=2) center center;
   background-size: cover;
 }
 
@@ -234,7 +235,7 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 }
 
 #hero .actions a {
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond","Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -381,7 +382,7 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond", "Raleway", sans-serif;
   font-size: 14px;
   color: #fff;
   white-space: nowrap;
@@ -620,13 +621,13 @@ section {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #ffffff00;
   padding: 80px 0;
 }
 
 @media (prefers-color-scheme: dark) {
   #about {
-    background: #000;
+    background: #211200; /*was 000*/
   }
 }
 
@@ -651,17 +652,17 @@ section {
 }
 
 #about .about-content {
-  background: #fff;
+  background: #ffffff00;
 }
 
 @media (prefers-color-scheme: dark) {
   #about .about-content {
-    background: #000;
+    background: #211200; /*was 000*/
   }
 }
 
 #about .about-title {
-  color: #333;
+  color: #211200; /*was 333*/
   font-weight: 700;
   font-size: 28px;
 }
@@ -740,7 +741,7 @@ section {
 
 
 #services .service-title a {
-  color: #111;
+  color: #111; 
 }
 
 #services .service-title a {
@@ -838,7 +839,7 @@ section {
 }
 
 #news .news-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond", "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -907,7 +908,7 @@ section {
 }
 
 #subscribe .subscribe-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond", "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -971,7 +972,7 @@ section {
 }
 
 #subscribe2 .subscribe-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond", "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -1033,7 +1034,7 @@ section {
 }
 
 #subscribe3 .subscribe-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "EB Garamond", "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -1296,7 +1297,7 @@ section {
 .team .member .member-img .social {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.414);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1380,7 +1381,7 @@ section {
 
 @media (prefers-color-scheme: dark) {
   #team {
-    background: #000;
+    background: #311b00; /*was 000*/
   }
 }
 
@@ -1418,7 +1419,7 @@ color: #fff;
 }
 
 #contact a:hover {
-  color: #F3807D;
+  color: #f2c39f;
 }
 
 #contact .info {
@@ -1499,7 +1500,7 @@ color: #fff;
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #F3807D;
+  background: #f2c39f;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1805,13 +1806,13 @@ color: #fff;
 /* ascolta Section
 --------------------------------*/
 #ascolta {
-  background: #f7f7f7;
+  background: #fff4e4 /*was f7f7f7;*/
   padding: 80px 0 40px 0;
 }
 
 @media (prefers-color-scheme: dark) {
   #ascolta {
-    background: #414040
+    background: #211200 /* was 414040*/
   }
 }
 
@@ -1893,7 +1894,7 @@ color: #fff;
 }
 
 #ascolta .php-email-form button[type=submit]:hover {
-  background: #F3807D;
+  background: #f2c39f;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1923,6 +1924,7 @@ color: #fff;
 --------------------------------------------------------------*/
 .ascolta .info-item {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  background: #dfcdafc7;
   padding: 20px 0 30px 0;
 }
 
