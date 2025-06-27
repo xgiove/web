@@ -1,4 +1,8 @@
-User-agent: *
-Disallow: /old/
-Disallow: /assets/
-Disallow: /forms/
+Disallow: /css/
+Disallow: /sass/
+Disallow: /Source/
+Disallow: /music-files/
+Disallow: /js/
+Disallow: /webfonts/
+
+Allow: /
