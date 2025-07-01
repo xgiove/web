@@ -283,9 +283,22 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 4000,
         responsive: {
-            0: { items: 2 },
-            600: { items: 3 },
-            1000: { items: 4 }
+            0: { 
+                items: 2,
+                margin: 10,
+                center: false,
+                autoWidth: true // usa le larghezze definite nel CSS
+            },
+            600: { 
+                items: 3, 
+                margin: 20,
+                autoWidth: false
+            },
+            1000: { 
+                items: 4, 
+                margin: 20,
+                autoWidth: false
+            }
         }
     });
 
