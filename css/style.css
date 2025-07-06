@@ -3265,6 +3265,8 @@ ol {
 		margin-top: 0px;
 	}
 
-
+    .event__slider.owl-carousel .owl-item {
+        transform: translateX(-20px); /* sposta il secondo elemento verso sinistra */
+    }
 
 }
